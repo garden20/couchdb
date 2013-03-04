@@ -48,8 +48,9 @@
       </div>
     </footer>
   </div>
-
+  <script type="text/javascript" src="<%= assets_root %>js/libs/topbar.js?position=fixed"></script>
   <!-- Application source. -->
   <script data-main="/app/config" src="<%= assets_root %>js/<%= requirejs %>"></script>
+
 </body>
 </html>
